@@ -1,0 +1,20 @@
+{
+  "name": "forge-pwa",
+  "version": "1.0.0",
+  "description": "the Forge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKChristopher/forge-pwa.git"
+  },
+  "author": "Kyle Loftin, Christopher Washburn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SKChristopher/forge-pwa/issues"
+  },
+  "homepage": "https://github.com/SKChristopher/forge-pwa#readme"
+}
