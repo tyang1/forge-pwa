@@ -1,65 +1,36 @@
-import React from "react";
-import classNames from "classnames";
+import React from 'react';
 
-export class Navbar extends React.Component {
-
-  // static propTypes = { name: React.PropTypes.string.isRequired };
-
-  render() {
-    const _className = classNames("navbar neal-navbar", this.props.className);
-    return (
-      <header className="neal-navbar-wrapper">
-        <nav className={_className}>
-          <div className="container">
-            <button className="navbar-toggler hidden-md-up" type="button" data-toggle="collapse"
-              data-target="#mobile-nav">
-              &#9776;
-            </button>
-            <a className="navbar-brand hidden-sm-down" href="/">{this.props.brand}</a>
-            <div className="navbar-toggleable-sm hidden-sm-down" id="header-nav">
-              <ul className="nav navbar-nav pull-right">
-                {this.props.children}
-              </ul>
+const Navbar = () =>
+  (
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <a className="navbar-brand" href="/">The Forge</a>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon" />
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul className="navbar-nav">
+          <li className="nav-item active">
+            <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/">Features</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/">Pricing</a>
+          </li>
+          <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a className="dropdown-item" href="/">Action</a>
+              <a className="dropdown-item" href="/">Another action</a>
+              <a className="dropdown-item" href="/">Something else here</a>
             </div>
-            <div className="collapse navbar-toggleable-sm hidden-md-up neal-mobile-nav" id="mobile-nav">
-              <ul className="nav navbar-nav">
-                {this.props.children}
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-    );
-  }
-}
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
 
-export class NavItem extends React.Component {
-
-  // static propTypes = {
-  //   dropdown: React.PropTypes.bool,
-  // };
-
-  render() {
-    const _className = classNames("nav-item", { dropdown: this.props.dropdown }, this.props.className);
-    return (
-      <li {...this.props} className={_className}>
-        { this.props.children }
-      </li>
-    );
-  }
-}
-
-export class DropdownToggle extends React.Component {
-  render() {
-    return (
-      <a className="nav-link" data-toggle="dropdown" role="button" {... this.props}>
-        {this.props.children}
-      </a>);
-  }
-}
-
-export class DropdownMenu extends React.Component {
-  render() {
-    return <div className="dropdown-menu" {... this.props}>{this.props.children}</div>;
-  }
-}
+export default Navbar;
