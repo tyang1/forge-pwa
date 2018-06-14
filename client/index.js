@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import 'jquery/dist/jquery';
-import 'popper.js/dist/umd/popper';
-import 'bootstrap/dist/js/bootstrap';
+
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import App from './Components/App.jsx';
 
 
