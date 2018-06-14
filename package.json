@@ -28,10 +28,19 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "bootstrap": "^4.1.1",
+    "classnames": "^2.2.6",
     "css-loader": "^0.28.11",
     "express": "^4.16.3",
+<<<<<<< HEAD
     "file-loader": "^1.1.11",
+=======
+    "jquery": "^3.3.1",
+    "neal-react": "^0.2.5",
+>>>>>>> a17b62f8ac1a11ce260e88d3076cb3f5f7cbd1da
     "node-sass": "^4.9.0",
+    "popper.js": "^1.14.3",
+    "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "sass-loader": "^7.0.1",
