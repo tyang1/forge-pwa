@@ -1,17 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navbar from './NavBar.jsx';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar />
-        <div id="app-container">
-          <p>hello</p> World
-        </div>
-      </div>
-    );
-  }
-}
+const App = () =>
+  (
+    <div>
+      <Navbar />
+      <div id="app-container" />
+    </div>
+  );
 
 export default App;
