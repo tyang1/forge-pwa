@@ -32,12 +32,9 @@
     "classnames": "^2.2.6",
     "css-loader": "^0.28.11",
     "express": "^4.16.3",
-<<<<<<< HEAD
     "file-loader": "^1.1.11",
-=======
     "jquery": "^3.3.1",
     "neal-react": "^0.2.5",
->>>>>>> a17b62f8ac1a11ce260e88d3076cb3f5f7cbd1da
     "node-sass": "^4.9.0",
     "popper.js": "^1.14.3",
     "prop-types": "^15.6.1",
