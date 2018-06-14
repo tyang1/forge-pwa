@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import Navbar from './NavBar.jsx';
+import React, { Component } from "react";
+import Team from '../Team.jsx';
+import "../styles.scss";
+import { Navbar } from './NavBar.jsx';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div id="app-container">
         <Navbar />
-        <div id="app-container">
-          <p>hello</p> World
-        </div>
+        <Team />
       </div>
     );
   }
