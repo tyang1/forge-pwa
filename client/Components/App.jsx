@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div id="app-container">
-        <Navbar brand="hello" />
+        <Navbar brand="The Forge" />
         <p>hello</p> World
       </div>
     );
