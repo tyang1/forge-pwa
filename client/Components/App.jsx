@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Team from './Team.jsx';
-import "./styles.scss";
+import Team from '../Team.jsx';
+import "../styles.scss";
 import { Navbar } from './NavBar.jsx';
 
 
