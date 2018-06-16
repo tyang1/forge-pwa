@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Pwa = props => (
+const PWA = props => (
   <div className="member">
     <div className="mem-img">
       <img src={props.img} height={200} width={170} alt="" />
@@ -15,4 +15,4 @@ const Pwa = props => (
   </div>
 );
 
-export default Pwa;
+export default PWA;
