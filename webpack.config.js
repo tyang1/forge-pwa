@@ -8,21 +8,23 @@ const config = {
   },
   module: {
     rules: [
-      { test: /\.css$/, use: 'css-loader' },
-      { test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.jsx$/, use: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.js$/, use: 'babel-loader', include: /client/ },
+      { test: /\.jsx$/, use: 'babel-loader', include: /client/ },
       {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
+        include: /client/,
       },
       {
-        test: /\.(png|jp(e*)g|svg)$/, use: [{
+        test: /\.(png|jp(e*)g|svg)$/,
+        use: [{
           loader: 'url-loader',
           options: {
             limit: 8000, // Convert images < 8kb to base64 strings
             name: 'images/[hash]-[name].[ext]',
           },
         }],
+        include: /client/,
       },
     ],
   },
