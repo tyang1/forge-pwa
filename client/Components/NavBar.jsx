@@ -1,9 +1,6 @@
 import React from 'react';
-import git from '../images/github.svg';
 
 const Navbar = () => {
-
-
   return (
     <nav className="navbar sticky-top navbar-dark navbar-expand-md bg-success justify-content-between">
       <div className="navbar-collapse collapse dual-nav w-100" id="navbarNavDropdown">
