@@ -8,12 +8,12 @@ const config = {
   },
   module: {
     rules: [
-      { test: /\.css$/, use: 'css-loader' },
       { test: /\.js$/, use: 'babel-loader', include: /client/ },
       { test: /\.jsx$/, use: 'babel-loader', include: /client/ },
       {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
+        include: /client/,
       },
       {
         test: /\.(png|jp(e*)g|svg)$/,
@@ -24,6 +24,7 @@ const config = {
             name: 'images/[hash]-[name].[ext]',
           },
         }],
+        include: /client/,
       },
     ],
   },

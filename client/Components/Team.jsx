@@ -1,9 +1,9 @@
 import React from 'react';
 import PWA from './PWA.jsx';
-import chris from '../../static/Chris.jpg';
-import jeff from '../../static/jeff.jpeg';
-import kyle from '../../static/kyle.jpeg';
-import tiff from '../../static/tiff.png';
+import chris from '../static/Chris.jpg';
+import jeff from '../static/jeff.jpeg';
+import kyle from '../static/kyle.jpeg';
+import tiff from '../static/tiff.png';
 
 const Team = props => (
   <div className="container">
