@@ -1,8 +1,9 @@
 import React from 'react';
 
 const Logo = () => (
- <div>
-   <h1>the Forge</h1>
+ <div className="logo-container">
+   <h1 className="logo-text">the Forge</h1>
+   <h2 className="slogan">Where code is smithed.</h2>
  </div>
 );
 
