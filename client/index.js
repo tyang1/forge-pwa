@@ -6,4 +6,4 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import App from './Components/App.jsx';
 
 
-render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById('root'));
