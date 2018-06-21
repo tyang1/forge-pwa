@@ -3,6 +3,11 @@ import Navbar from './NavBar.jsx';
 import Team from './Team.jsx';
 import Logo from './Logo.jsx';
 import '../styles.scss';
+import styled from 'styled-components';
+
+const BodyWrapper = styled.body`
+background: blue;
+`;
 
 class App extends Component {
   constructor() {
@@ -14,8 +19,10 @@ class App extends Component {
     return (
       <div id="app-container">
         <Navbar />
-        <Logo />
-        <Team />
+        <BodyWrapper>
+          <Logo />
+          <Team />
+        </BodyWrapper>
       </div>
     );
   }
