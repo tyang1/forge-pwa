@@ -12,20 +12,16 @@ const Team = props => (
       <h1> Our Team </h1>
     </div>
     <div className="column">
-      <PWA img={chris} description="Christopher Washburn" />
-      <Info />
+      <PWA img={chris} description="Christopher" />
     </div>
     <div className="column">
       <PWA img={kyle} description="Kyle" />
-      <Info />
     </div>
     <div className="column">
       <PWA img={tiff} description="Tiffany Yang" />
-      <Info />
     </div>
     <div className="column">
       <PWA img={jeff} description="Jeffrey Kang" />
-      <Info />
     </div>
     {/* <div className="column">
       <PWA img={jeff} description="Jeff Kang" />
