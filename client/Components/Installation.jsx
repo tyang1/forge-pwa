@@ -1,12 +1,12 @@
 import React from 'react';
 
 const Installation = () => (
-  <div className="container">
+  <div className="container-fluid">
     <div className="row text-center heading">
       <h3>Installation And Usage</h3>
     </div>
     <div className="row">
-      <div className="col-md-6">
+      <div className="col-md-3">
         <h3>Installation</h3>
         <p>Install the Forge with npm:</p>
         <div className="highlight shell">
@@ -14,6 +14,8 @@ const Installation = () => (
             <span className="source shell">npm install forge -g</span>
           </pre>
         </div>
+      </div>
+      <div className="col-md-3">
         <h3>Basic Usage</h3>
         <p>Run the Forge in the command line:</p>
         <div className="highlight shell">
