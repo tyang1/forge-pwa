@@ -2,7 +2,7 @@ import React from 'react';
 
 const Installation = () => (
   <div className="container-fluid">
-    <div className="row text-center heading">
+    <div className="row heading">
       <h3>Installation And Usage</h3>
     </div>
     <div className="row">

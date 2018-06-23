@@ -127,6 +127,35 @@ body{
   transform: rotate(45deg) translate(-6px, -6px);
 }
 
+.heading {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 40px;
+}
+
 .buttons {
   margin-top: -70px;
+}
+
+.features h4 {
+  margin-left: 20px;
+}
+
+.footer {
+  height: 30px;
+}
+
+.footer a {
+  color: white;
+}
+
+.f-text {
+  color: lightgray;
+}
+
+.team {
+  margin-bottom: 2rem;
 }
