@@ -147,6 +147,17 @@ body{
   margin: 5px;
 }
 
+@media only screen and (max-width: 600px) {
+  .buttons {
+    margin-top: 0px;
+    float: none!important;
+  }
+
+  .footer {
+    display: none;
+  }
+}
+
 .feature-desc h4 {
   padding-left: 40px;
 }

@@ -41,7 +41,7 @@ class Navbar extends React.Component {
                 borderRadius={0}
                 animationDuration={0.5}
               /> */}
-              <a className="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />
+              <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />
               <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a className="dropdown-item" href="/">Download</a>
                 <a className="dropdown-item" href="/">How to use</a>
