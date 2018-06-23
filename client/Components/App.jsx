@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Navbar from './NavBar.jsx';
 import Team from './Team.jsx';
 import Logo from './Logo.jsx';
+import Features from './Features.jsx';
+import Installation from './Installation.jsx';
 import '../styles.scss';
 import styled from 'styled-components';
 
@@ -21,8 +23,10 @@ class App extends Component {
         <Navbar />
         <BodyWrapper>
           <Logo />
-          <Team />
         </BodyWrapper>
+        <Features />
+        <Installation />
+        <Team />
       </div>
     );
   }
