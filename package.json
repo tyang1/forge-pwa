@@ -5,14 +5,15 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
+    "start": "node server.js",
+    "start-dev": "nodemon server.js",
     "build": "webpack -p --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SKChristopher/forge-pwa.git"
   },
-  "author": "Kyle Loftin, Christopher Washburn",
+  "author": "Kyle Loftin, Christopher Washburn, Tiffany Yang, Jeff Kang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SKChristopher/forge-pwa/issues"
