@@ -9,7 +9,7 @@ const Features = () => (
       <div className="col-md-6">
         <p>TODO: ADD GIF</p>
       </div>
-      <div className="col-md-6">
+      <div className="col-md-6 feature-desc">
         <i className="fas fa-bolt fa-2x float-left" />
         <h4>Generate PWA Codebase</h4>
         <p>Quickly generate a new directory that contains all the code you need to get up and running with a Progressive Web App.</p>
