@@ -1,4 +1,6 @@
 $primary-color: red;
+$secondary-color: orange;
+
 body{
   font-family:'Source Sans Pro', sans-serif;
   font-weight: 400;
@@ -12,6 +14,7 @@ body{
     font-size: 128px;
   }
   .slogan {
+    color: $secondary-color;
     font-size: 36px;
   }
 }
