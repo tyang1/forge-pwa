@@ -5,11 +5,6 @@ import Logo from './Logo.jsx';
 import Features from './Features.jsx';
 import Installation from './Installation.jsx';
 import '../styles.scss';
-import styled from 'styled-components';
-
-const BodyWrapper = styled.body`
-background: blue;
-`;
 
 class App extends Component {
   constructor() {
@@ -21,9 +16,7 @@ class App extends Component {
     return (
       <div id="app-container">
         <Navbar />
-        <BodyWrapper>
-          <Logo />
-        </BodyWrapper>
+        <Logo />
         <Features />
         <Installation />
         <Team />
