@@ -3,12 +3,11 @@ import Info from "./Info.jsx";
 
 const PWA = props => (
   <div className="info">
-    <img src={props.img} height={200} width={170} alt="" />
-    <p> {props.description}</p>
-    <Info />
-    <div className="description">
-      <p>Experiences and dream</p>
-    </div>
+    <img className="image" src={props.img} height={200} width={170} alt="" />
+    <p> {props.name}</p>
+    <p>{props.description}</p>
+    <Info bkground={props.bkground} github={props.github}/>
+    
   </div>
 );
 
