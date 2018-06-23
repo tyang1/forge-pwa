@@ -1,5 +1,6 @@
 $primary-color: red;
 $secondary-color: orange;
+$minor-color: gold;
 
 body{
   font-family:'Source Sans Pro', sans-serif;
@@ -67,6 +68,10 @@ body{
 
 .info:hover .team-hover{
   opacity: 1;
+}
+
+.bolts {
+  color: $minor-color;
 }
 
 // .app-container::after {
