@@ -53,7 +53,7 @@ class Navbar extends React.Component {
         <div className="navbar-brand mx-auto d-block text-center w-100">The Forge Logo Here</div>
         <div className="navbar-collapse collapse dual-nav w-100">
           <a className="navbar-brand nav navbar-nav ml-auto" href="https://github.com/ProgrammersWitAttitudes/pwa_creator">
-            <img src={gitPic} width="40" height="30" alt="Github" />
+            <i className="fab fa-github fa-2x" />
           </a>
         </div>
       </nav>
