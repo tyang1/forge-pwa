@@ -7,7 +7,7 @@ import tiff from "../static/Tiffany.jpg";
 import Info from './Info.jsx';
 
 const Team = props => (
-  <div className="container">
+  <div className="container-fluid">
     <div className="title">
       <h1> Our Team </h1>
     </div>

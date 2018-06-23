@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Features = () => (
-  <div className="container">
+  <div className="container-fluid">
     <div className="row text-center heading">
       <h3>Features</h3>
     </div>
