@@ -2,7 +2,7 @@ $primary-color: red;
 $secondary-color: orange;
 
 body{
-  font-family:'Source Sans Pro', sans-serif;
+  font-family: Courier New;
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }
@@ -35,10 +35,15 @@ body{
   margin-right: 20px;
   position: relative;
 }
-.head {
+
+.head h2{
   color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+  margin-left: auto;
+margin-right: auto;
+  font-size: 20px;
+  padding: 16px 16px;
+   resize: both;
+  position:relative;
 }
 
 .team-hover{
@@ -47,9 +52,14 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
+  overflow:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.head a{
+  padding-right: 20px;
 }
 
 .image {
