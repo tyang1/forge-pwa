@@ -11,7 +11,7 @@ const config = {
       { test: /\.js$/, use: 'babel-loader', include: /client/ },
       { test: /\.jsx$/, use: 'babel-loader', include: /client/ },
       {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
         include: /client/,
       },

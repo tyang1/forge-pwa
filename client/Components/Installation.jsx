@@ -1,7 +1,10 @@
 import React from 'react';
+import "../animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Installation = () => (
   <div className="container-fluid">
+  <ScrollAnimation animateIn="fadeInLeft">
     <div className="row heading">
       <h3>Installation And Usage</h3>
     </div>
@@ -56,6 +59,7 @@ const Installation = () => (
         <p>TODO: ADD IMAGES/GIFS FOR DEMO</p>
       </div>
     </div>
+    </ScrollAnimation>
   </div>
 );
 

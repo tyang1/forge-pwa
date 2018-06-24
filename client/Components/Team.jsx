@@ -5,9 +5,13 @@ import jeff from "../static/Jeff.jpg";
 import kyle from "../static/Kyle.jpg";
 import tiff from "../static/Tiffany.jpg";
 import Info from './Info.jsx';
+import "../animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
+
 
 const Team = props => (
   <div className="container-fluid team">
+<ScrollAnimation animateIn="fadeInRight">
     <div className="row heading">
       <h3>Our Team</h3>
     </div>
@@ -23,6 +27,7 @@ const Team = props => (
     <div className="column">
       <PWA img={jeff} name="Jeffrey Kang" description='-"Enjoys fullstack!"' bkground="background" linked = "https://www.linkedin.com/in/jeff-r-kang/" github="https://github.com/jkang215"/>
     </div>
+  </ScrollAnimation>
     {/* <div className="column">
       <PWA img={jeff} description="Jeff Kang" />
     <div className='team-hover'>
