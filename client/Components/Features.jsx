@@ -1,7 +1,10 @@
 import React from 'react';
+import "../animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Features = () => (
   <div className="container-fluid features">
+  <ScrollAnimation animateIn = "fadeInLeft">
     <div className="row heading">
       <h3>Features</h3>
     </div>
@@ -21,6 +24,7 @@ const Features = () => (
         <p>Automatically spins up an AWS EC2 instance and hosts your forged project in a S3 bucket.</p>
       </div>
     </div>
+    </ScrollAnimation>
   </div>
 );
 
