@@ -36,6 +36,7 @@ class Navbar extends React.Component {
     const { theme } = this.state;
     const themeClass = theme ? theme.toLowerCase() : 'secondary';
     return (
+
       <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-success justify-content-between">
         <div class="collapse navbar-collapse dual-nav w-100" id="navbarNavDropdown">
           <ul class="navbar-nav">
@@ -47,6 +48,7 @@ class Navbar extends React.Component {
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
                 <a class="dropdown-item" href="#">Something else here</a>
+
               </div>
             </li>
           </ul>

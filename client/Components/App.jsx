@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Navbar from './NavBar.jsx';
-import Team from './Team.jsx';
 import Logo from './Logo.jsx';
 import Features from './Features.jsx';
 import Installation from './Installation.jsx';
+import Team from './Team.jsx';
+import Footer from './Footer.jsx';
 import '../styles.scss';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
         <Features />
         <Installation />
         <Team />
+        <Footer />
       </div>
     );
   }
