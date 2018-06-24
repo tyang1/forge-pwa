@@ -1,6 +1,6 @@
 $primary-color: red;
 body{
-  font-family:'Source Sans Pro', sans-serif;
+  font-family: Courier New;
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }
@@ -32,10 +32,15 @@ body{
   margin-right: 20px;
   position: relative;
 }
-.head {
+
+.head h2{
   color: white;
-  font-size: 5px;
-  padding: 16px 32px;
+  margin-left: auto;
+margin-right: auto;
+  font-size: 20px;
+  padding: 16px 16px;
+   resize: both;
+  position:relative;
 }
 
 .team-hover{
@@ -44,9 +49,14 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
+  overflow:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.head a{
+  padding-right: 20px;
 }
 
 .image {
@@ -65,27 +75,6 @@ body{
 .info:hover .team-hover{
   opacity: 1;
 }
-
-// .app-container::after {
-//   content: "";
-//   clear: both;
-//   display: table;
-// }
-
-// .container:hover .head {
-//   // z-index: 0;
-//   opacity: 1;
-// }
-
-// .container:hover .column {
-//   // z-index: 0;
-//   opacity: 0.3;
-// }
-
-// .container:hover .team-hover {
-//   // z-index: -2;
-//   opacity: 1;
-// }
 
 // drop menu
 
@@ -125,4 +114,8 @@ body{
 .burger-menu.open .bar3 {
   -webkit-transform: rotate(45deg) translate(-6px, -6px);
   transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.buttons {
+  margin-top: -70px;
 }

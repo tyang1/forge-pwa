@@ -7,21 +7,21 @@ import tiff from "../static/Tiffany.jpg";
 import Info from './Info.jsx';
 
 const Team = props => (
-  <div className="container">
+  <div className="container-fluid">
     <div className="title">
       <h1> Our Team </h1>
     </div>
     <div className="column">
-      <PWA img={chris} name="Christopher" description="Passionate about React/Redux" bkground="background" github="https://github.com/SKChristopher"/>
+      <PWA img={chris} name="Christopher Washburn" description='-"Passionate about React/Redux"' bkground="background" linked = "https://www.linkedin.com/in/christopherwashburn/" github="https://github.com/SKChristopher"/>
     </div>
     <div className="column">
-      <PWA img={kyle} name="Kyle" description="Love all things tech!" bkground="ready to take on new tech" github="https://github.com/KALoftin"/>
+      <PWA img={kyle} name="Kyle Loftin" description='-"Love all things tech!"' bkground="ready to take on new tech" linked = "https://www.linkedin.com/in/kyle-loftin-62566639/" github="https://github.com/KALoftin"/>
     </div>
     <div className="column">
-      <PWA img={tiff} name="Tiffany Yang" description="Have fun with problem solving" bkground="background" github="https://github.com/tyang1"/>
+      <PWA img={tiff} name="Tiffany Yang" description='-"Have fun with problem solving"' bkground="background" linked = "https://www.linkedin.com/in/tiffany-yang-09b82937/" github="https://github.com/tyang1"/>
     </div>
     <div className="column">
-      <PWA img={jeff} name="Jeffrey Kang" description="Enjoys fullstack!" bkground="background" github="https://github.com/jkang215"/>
+      <PWA img={jeff} name="Jeffrey Kang" description='-"Enjoys fullstack!"' bkground="background" linked = "https://www.linkedin.com/in/jeff-r-kang/" github="https://github.com/jkang215"/>
     </div>
     {/* <div className="column">
       <PWA img={jeff} description="Jeff Kang" />
