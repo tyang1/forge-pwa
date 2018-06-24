@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import Navbar from './NavBar.jsx';
-import Team from './Team.jsx';
 import Logo from './Logo.jsx';
 import Features from './Features.jsx';
 import Installation from './Installation.jsx';
+import Team from './Team.jsx';
+import Footer from './Footer.jsx';
 import '../styles.scss';
-import styled from 'styled-components';
-
-const BodyWrapper = styled.body`
-background: blue;
-`;
 
 class App extends Component {
   constructor() {
@@ -21,12 +17,11 @@ class App extends Component {
     return (
       <div id="app-container">
         <Navbar />
-        <BodyWrapper>
-          <Logo />
-        </BodyWrapper>
+        <Logo />
         <Features />
         <Installation />
         <Team />
+        <Footer />
       </div>
     );
   }
