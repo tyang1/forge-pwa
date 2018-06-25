@@ -3,7 +3,7 @@ import "../animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const Features = () => (
-  <div className="container-fluid features">
+  <div className="container-fluid features" id="page-1">
   <ScrollAnimation animateIn = "fadeInLeft">
     <div className="row heading">
       <h3>Features</h3>

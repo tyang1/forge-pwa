@@ -140,3 +140,13 @@ body {
 .f-text {
   color: lightgray;
 }
+
+.navbar-overlay {
+  z-index: 1;
+  border-style: hidden hidden solid hidden;
+  border-width: thin;
+}
+
+#page-1 #page-2 #page-3 {
+  scroll-behavior: smooth;
+}
