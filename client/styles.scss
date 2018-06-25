@@ -10,7 +10,9 @@ body {
 }
 
 .logo-container {
+  background-color: lightgrey;
   text-align: center;
+  padding-bottom: 20px;
   .logo-text {
     color: $primary-color;
     font-size: 128px;
@@ -81,6 +83,10 @@ h3{
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+}
+
+.half-image {
+  width: 100%;
 }
 
 .info:hover .image {
