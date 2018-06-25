@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Installation = () => (
   <div className="container-fluid">
-  <ScrollAnimation animateIn="fadeInLeft">
+  <ScrollAnimation animateOnce="true" animateIn="fadeInLeft">
     <div className="row heading">
       <h3>Installation And Usage</h3>
     </div>

@@ -3,7 +3,8 @@ $secondary-color: orange;
 $minor-color: gold;
 
 body {
-  font-family: Courier New;
+  // font-family: Courier New;
+  font-family:  'Lato';
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }
@@ -21,14 +22,10 @@ body {
     font-size: 36px;
   }
 }
-.container {
-  position: relative;
-  width: 70%;
-  left: 100px;
-  .description {
-    align-content: center;
-  }
-}
+// .container-fuild {
+//   -webkit-animation-iteration-count: 1;
+//   animation-iteration-count: 1;
+// }
 
 .team {
   margin-bottom: 2rem;
@@ -42,6 +39,7 @@ body {
     padding: 20px;
     position: relative;
     display: inline-flex;
+    
   }
 }
 
@@ -69,8 +67,13 @@ body {
   text-align: center;
 }
 
+h3{
+  font-weight: 700;
+}
+
 .head a {
-  padding-right: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .image {

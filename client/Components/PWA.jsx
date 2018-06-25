@@ -9,8 +9,9 @@ const PWA = props => (
       alt={props.name}
     />
     <p font-size="40px"> {props.name}</p>
-    <p>{props.description}</p>
+    {/* <p>{props.description}</p> */}
     <Info
+      description={props.description}
       bkground={props.bkground}
       github={props.github}
       linked={props.linked}

@@ -16,6 +16,7 @@ class App extends Component {
   render() {
     return (
       <div id="app-container">
+      <link rel="stylesheet" href="/bower_components/lato-font/css/lato-font.css"/>
         <Navbar />
         <Logo />
         <Features />
