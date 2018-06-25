@@ -6,8 +6,6 @@ const PWA = props => (
     <img
       className="image"
       src={props.img}
-      // height={200}
-      // width={170}
       alt={props.name}
     />
     <p font-size="40px"> {props.name}</p>

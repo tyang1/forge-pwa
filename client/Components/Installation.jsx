@@ -56,7 +56,7 @@ const Installation = () => (
         </div>
       </div>
       <div className="col-md-6">
-        <p>TODO: ADD IMAGES/GIFS FOR DEMO</p>
+        <img class="half-image" src='https://i.imgur.com/Bch4gAK.png' width='600' alt='forge' />
       </div>
     </div>
     </ScrollAnimation>
