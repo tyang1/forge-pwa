@@ -6,13 +6,12 @@ const PWA = props => (
     <img
       className="image"
       src={props.img}
-      // height={200}
-      // width={170}
       alt={props.name}
     />
     <p font-size="40px"> {props.name}</p>
-    <p>{props.description}</p>
+    {/* <p>{props.description}</p> */}
     <Info
+      description={props.description}
       bkground={props.bkground}
       github={props.github}
       linked={props.linked}

@@ -3,8 +3,8 @@ import "../animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const Installation = () => (
-  <div className="container-fluid" id="page-2">
-  <ScrollAnimation animateIn="fadeInLeft">
+  <div className="container-fluid">
+  <ScrollAnimation animateOnce="true" animateIn="fadeInLeft">
     <div className="row heading">
       <h3>Installation And Usage</h3>
     </div>
@@ -56,7 +56,7 @@ const Installation = () => (
         </div>
       </div>
       <div className="col-md-6">
-        <p>TODO: ADD IMAGES/GIFS FOR DEMO</p>
+        <img class="half-image" src='https://i.imgur.com/Bch4gAK.png' width='600' alt='forge' />
       </div>
     </div>
     </ScrollAnimation>
