@@ -19,14 +19,10 @@ body {
     font-size: 36px;
   }
 }
-.container {
-  position: relative;
-  width: 70%;
-  left: 100px;
-  .description {
-    align-content: center;
-  }
-}
+// .container-fuild {
+//   -webkit-animation-iteration-count: 1;
+//   animation-iteration-count: 1;
+// }
 
 .team {
   margin-bottom: 2rem;
@@ -40,6 +36,7 @@ body {
     padding: 20px;
     position: relative;
     display: inline-flex;
+    
   }
 }
 

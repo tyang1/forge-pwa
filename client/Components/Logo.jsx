@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Logo = () => (
   <div className="logo-container">
-  <ScrollAnimation animateIn="fadeInDown">
+  <ScrollAnimation animateOnce='true' animateIn="fadeInDown">
     <h1 className="logo-text">the Forge</h1>
     <h3 className="slogan">Where code is smithed.</h3>
     <div className="buttons float-right">
