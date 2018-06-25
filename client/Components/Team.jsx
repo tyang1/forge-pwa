@@ -6,10 +6,11 @@ import kyle from "../static/Kyle.jpg";
 import tiff from "../static/Tiffany.jpg";
 import "../animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import '../styles.scss';
 
 const Team = props => (
-  <div className="container-fluid team">
-    <ScrollAnimation animateOnce="true" animateIn="fadeInRight">
+  <div className="container-fluid team" id="page-3">
+    <ScrollAnimation animateIn="fadeInRight">
       <div className="heading">
         <h3>Our Team</h3>
       </div>
