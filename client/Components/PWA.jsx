@@ -8,8 +8,7 @@ const PWA = props => (
       src={props.img}
       alt={props.name}
     />
-    <p font-size="40px"> {props.name}</p>
-    {/* <p>{props.description}</p> */}
+    <p font-size="40px">{props.name}</p>
     <Info
       description={props.description}
       bkground={props.bkground}
