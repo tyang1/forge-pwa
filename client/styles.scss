@@ -1,7 +1,6 @@
 $primary-color: red;
 $secondary-color: orange;
 $minor-color: gold;
-$text-border: black;
 
 body {
   // font-family: Courier New;
@@ -12,31 +11,13 @@ body {
 }
 
 .logo-container {
-  display: flex;
-  justify-content: center;
-  background-color: white;
+  width: 100%;
   text-align: center;
-  padding: 20px 0;
-}
-
-.logo-container .row {
-  width: 80%;
-}
-
-.icon-img {
-  height: auto;
-  width: 90%;
-}
-
-.forge-header {
-  color: $primary-color;
-  font-size: 6rem;
-  margin-bottom: 3rem;
-  text-shadow: 3px 3px 10px $secondary-color;
-}
-
-.banner-buttons button {
-  margin: 10px;
+  padding-bottom: 20px;
+  background-color: white;
+  .logo-text {
+    width: 80%;
+  }
 }
 
 .npm {
