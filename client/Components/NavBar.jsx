@@ -67,9 +67,8 @@ class Navbar extends React.Component {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse dual-nav w-100">
-          <a class="navbar-brand nav navbar-nav ml-auto" href="https://github.com/ProgrammersWitAttitudes/pwa_creator/stargazers">
-            <i class="fab fa-github fa-2x" />
-          </a>
+          <a class="navbar-brand nav navbar-nav ml-auto npm" href="https://npmjs.com/package/the_forge"><i class="fab fa-npm fa-2x" /></a>
+          <a class="navbar-brand nav navbar-nav ml-auto" href="https://github.com/ProgrammersWitAttitudes/pwa_creator/stargazers"><i class="fab fa-github fa-2x" /></a>
         </div>
       </nav>
     );
