@@ -10,7 +10,7 @@ body {
 }
 
 .logo-container {
-  background-color: lightgrey;
+  background-color: #eee;
   text-align: center;
   padding-bottom: 20px;
   .logo-text {
@@ -150,4 +150,14 @@ h3 {
 
 .f-text {
   color: lightgray;
+}
+
+.navbar-overlay {
+  z-index: 1;
+  border-style: hidden hidden solid hidden;
+  border-width: thin;
+}
+
+#page-1 #page-2 #page-3 {
+  scroll-behavior: smooth;
 }
