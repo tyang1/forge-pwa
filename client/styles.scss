@@ -16,30 +16,37 @@ body {
   background-color: white;
   text-align: center;
   padding: 20px 0;
- }
+}
  
- .logo-container .row {
+.logo-container .row {
   width: 80%;
- }
+}
  
- .icon-img {
+.icon-img {
   height: auto;
   width: 90%;
- }
+}
  
- .forge-header {
+.forge-header {
   color: $primary-color;
   font-size: 6rem;
   margin-bottom: 3rem;
   text-shadow: 3px 3px 10px $secondary-color;
- }
+}
  
- .banner-buttons button {
+.banner-buttons button {
   margin: 10px;
- }
+}
 
-.npm {
-  margin-right: -190px;
+.github-button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-button-group .gh-btn {
+  margin: 5px;
 }
 
 .team {

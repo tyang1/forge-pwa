@@ -14,6 +14,10 @@ const Logo = () => (
           <button type="button" className="btn btn-lg btn-success">Github</button>
           <button type="button" className="btn btn-lg btn-info">NPM</button>
         </div>
+        <div className="github-button-group">
+          <div className="gh-btn"><a className="github-button" href="https://github.com/forgepwa/the_forge" data-icon="octicon-star" aria-label="Star the Forge on GitHub">Star</a></div>
+          <div className="gh-btn"><a className="github-button" href="https://github.com/forgepwa" aria-label="Follow @forgepwa on GitHub">Follow @forgepwa</a></div>
+        </div>
       </div>
       <div className="col-md-6">
         <img className="icon-img" src={iconImg} alt="the Forge icon" />
