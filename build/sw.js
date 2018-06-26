@@ -6,6 +6,11 @@ var filesToCache = [
   './bundle.js',
   "./sw.js",
   "./manifest.json",
+  './images/forge-48.png',
+  './images/forge-96.png',
+  './images/forge-144.png',
+  './images/forge-196.png',
+  './images/forge-384.png',
 ];
 
 self.addEventListener('install', function(e) {
