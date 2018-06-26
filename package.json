@@ -1,5 +1,5 @@
 {
-  "name": "forge-pwa",
+  "name": "forge_pwa",
   "version": "1.0.0",
   "description": "the Forge",
   "main": "server.js",
