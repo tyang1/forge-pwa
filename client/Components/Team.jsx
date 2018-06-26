@@ -6,15 +6,27 @@ import kyle from "../static/Kyle.jpg";
 import tiff from "../static/Tiffany.jpg";
 import "../animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
-import '../styles.scss';
+import "../styles.scss";
 
 const Team = props => (
   <div className="container-fluid team" id="page-3">
-    <ScrollAnimation duration='1' delay="300" animateOnce='true'animateIn="fadeIn">
-      <div className="heading">
+    <div className="heading">
+      <ScrollAnimation
+        duration="1"
+        delay="100"
+        animateOnce="true"
+        animateIn="fadeIn"
+      >
         <h1>Our Team</h1>
-      </div>
-      <div className="column">
+      </ScrollAnimation>
+    </div>
+    <div className="column">
+      <ScrollAnimation
+        duration="1"
+        delay="500"
+        animateOnce="true"
+        animateIn="fadeIn"
+      >
         <PWA
           img={chris}
           name="Christopher Washburn"
@@ -24,8 +36,15 @@ const Team = props => (
           github="https://github.com/SKChristopher"
           icon={<i className="fas fa-anchor float-left" />}
         />
-      </div>
-      <div className="column">
+      </ScrollAnimation>
+    </div>
+    <div className="column">
+      <ScrollAnimation
+        duration="1"
+        delay="700"
+        animateOnce="true"
+        animateIn="fadeIn"
+      >
         <PWA
           img={kyle}
           name="Kyle Loftin"
@@ -35,8 +54,15 @@ const Team = props => (
           github="https://github.com/KALoftin"
           icon={[<i className="fas fa-crow float-left" />]}
         />
-      </div>
-      <div className="column">
+      </ScrollAnimation>
+    </div>
+    <div className="column">
+      <ScrollAnimation
+        duration="1"
+        delay="900"
+        animateOnce="true"
+        animateIn="fadeIn"
+      >
         <PWA
           img={tiff}
           name="Tiffany Yang"
@@ -46,8 +72,15 @@ const Team = props => (
           github="https://github.com/tyang1"
           icon={[<i className="fas fa-bomb float-left" />]}
         />
-      </div>
-      <div className="column">
+      </ScrollAnimation>
+    </div>
+    <div className="column">
+      <ScrollAnimation
+        duration="1"
+        delay="1100"
+        animateOnce="true"
+        animateIn="fadeIn"
+      >
         <PWA
           img={jeff}
           name="Jeffrey Kang"
@@ -57,8 +90,8 @@ const Team = props => (
           github="https://github.com/jkang215"
           icon={[<i className="fas fa-wheelchair float-left" />]}
         />
-      </div>
-    </ScrollAnimation>
+      </ScrollAnimation>
+    </div>
   </div>
 );
 
