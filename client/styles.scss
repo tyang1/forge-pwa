@@ -165,18 +165,6 @@ h3 {
   text-align: center;
 }
 
-.footer {
-  height: 1.5rem;
-}
-
-.footer a {
-  color: white;
-}
-
-.f-text {
-  color: lightgray;
-}
-
 .navbar {
   height: 4rem;
 }
@@ -191,6 +179,18 @@ h3 {
   border-style: hidden hidden solid hidden;
   border-width: thin;
   background: firebrick; 
+}
+
+.footer {
+  height: 2rem;
+}
+
+.footer a {
+  color: white;
+}
+
+.f-text {
+  color: lightgray;
 }
 
 #page-1 #page-2 #page-3 {
