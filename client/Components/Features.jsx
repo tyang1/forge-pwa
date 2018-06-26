@@ -1,16 +1,17 @@
 import React from 'react';
 import "../animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
+import forgeGif from '../static/forgegif.gif';
 
 const Features = () => (
   <div className="container-fluid features" id="page-1">
-    <ScrollAnimation animateOnce="true" animateIn="fadeInLeft">
+    <ScrollAnimation animateOnce="true" animateIn="fadeInUp">
       <div className="row heading">
         <h1>Features</h1>
       </div>
       <div className="row">
         <div className="col-md-6">
-          <img class="half-image" src='https://media.giphy.com/media/2YnBCupyqeqIgwP9yd/giphy.gif' width='600' alt='forge' />
+          <img class="half-image" src={forgeGif} width='600' alt='forge' />
         </div>
         <div className="col-md-6">
           <i className="fas fa-bolt fa-2x float-left bolts" />

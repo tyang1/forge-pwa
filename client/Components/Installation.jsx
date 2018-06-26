@@ -1,10 +1,11 @@
 import React from 'react';
 import "../animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
+import forgeHelp from '../static/forge -h.png';
 
 const Installation = () => (
   <div className="container-fluid" id="page-2">
-  <ScrollAnimation animateOnce="true" animateIn="fadeInLeft">
+  <ScrollAnimation animateOnce="true" animateIn="fadeInUp">
     <div className="row heading">
       <h1>Installation And Usage</h1>
     </div>
@@ -56,7 +57,7 @@ const Installation = () => (
         </div>
       </div>
       <div className="col-md-6">
-        <img class="half-image" src='https://i.imgur.com/Bch4gAK.png' width='600' alt='forge' />
+        <img class="half-image" src={forgeHelp} width='600' alt='forge' />
       </div>
     </div>
     </ScrollAnimation>

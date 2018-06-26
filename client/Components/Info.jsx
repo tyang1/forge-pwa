@@ -6,9 +6,9 @@ const Info = props => (
   <div className = "team-hover">
     <div className="head">
       <p>{props.description}</p>
-      <a href={props.github}> <i className="fab fa-github fa-1x" />
+      <a href={props.github}> <i className="fab fa-github fa-2x" />
       </a>
-      <a href={props.linked}><i class="fab fa-linkedin fa-1x"></i></a> 
+      <a href={props.linked}><i class="fab fa-linkedin fa-2x"></i></a> 
     </div>
   </div>
 );
