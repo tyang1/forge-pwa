@@ -7,20 +7,16 @@ body {
   font-family: "Lato";
   font-weight: 400;
   text-rendering: optimizeLegibility;
+  background-color: #efefef;
 }
 
 .logo-container {
-  background-color: #eee;
+  width: 100%;
   text-align: center;
   padding-bottom: 20px;
+  background-color: white;
   .logo-text {
-    color: $primary-color;
-    font-size: 128px;
-    font-family: 'Open Sans', sans-serif;
-  }
-  .slogan {
-    color: $secondary-color;
-    font-size: 36px;
+    width: 80%;
   }
 }
 
@@ -92,7 +88,7 @@ h3 {
 }
 
 .info:hover .image {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .info:hover .team-hover {
@@ -147,8 +143,28 @@ h3 {
   width: 80%;
 }
 
+.install-col {
+  text-align: center;
+}
+
+.navbar {
+  height: 4rem;
+}
+
+.forge-nav-logo {
+  height: 3.8rem;
+  width: auto;
+  opacity: 0.9;
+}
+
+.navbar-overlay {
+  border-style: hidden hidden solid hidden;
+  border-width: thin;
+  background: firebrick; 
+}
+
 .footer {
-  height: 30px;
+  height: 2rem;
 }
 
 .footer a {
@@ -157,12 +173,6 @@ h3 {
 
 .f-text {
   color: lightgray;
-}
-
-.navbar-overlay {
-  z-index: 1;
-  border-style: hidden hidden solid hidden;
-  border-width: thin;
 }
 
 #page-1 #page-2 #page-3 {

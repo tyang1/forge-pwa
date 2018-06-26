@@ -12,7 +12,7 @@ const Team = props => (
   <div className="container-fluid team" id="page-3">
     <ScrollAnimation duration='1' delay="300" animateOnce='true'animateIn="fadeIn">
       <div className="heading">
-        <h3>Our Team</h3>
+        <h1>Our Team</h1>
       </div>
       <div className="column">
         <PWA
@@ -22,6 +22,7 @@ const Team = props => (
           bkground="background"
           linked="https://www.linkedin.com/in/christopherwashburn/"
           github="https://github.com/SKChristopher"
+          icon={<i className="fas fa-anchor float-left" />}
         />
       </div>
       <div className="column">
@@ -32,6 +33,7 @@ const Team = props => (
           bkground="ready to take on new tech"
           linked="https://www.linkedin.com/in/kyle-loftin-62566639/"
           github="https://github.com/KALoftin"
+          icon={[<i className="fas fa-crow float-left" />]}
         />
       </div>
       <div className="column">
@@ -42,6 +44,7 @@ const Team = props => (
           bkground="background"
           linked="https://www.linkedin.com/in/tiffany-yang-09b82937/"
           github="https://github.com/tyang1"
+          icon={[<i className="fas fa-bomb float-left" />]}
         />
       </div>
       <div className="column">
@@ -52,6 +55,7 @@ const Team = props => (
           bkground="background"
           linked="https://www.linkedin.com/in/jeff-r-kang/"
           github="https://github.com/jkang215"
+          icon={[<i className="fas fa-wheelchair float-left" />]}
         />
       </div>
     </ScrollAnimation>

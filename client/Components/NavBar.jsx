@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles.scss';
+import iconImg from '../static/forge-icon.png';
 // import styled from 'styled-components';
 // import HamburgerIcon from 'react-icons/lib/md/menu';
 // import VerticalIcon from 'react-icons/lib/md/more-vert';
@@ -36,11 +37,11 @@ class Navbar extends React.Component {
     const { theme } = this.state;
     const themeClass = theme ? theme.toLowerCase() : 'secondary';
     return (
-      <nav class="navbar sticky-top navbar-expand-md navbar-light justify-content-between navbar-overlay navbar-inverse">
-        <div class="collapse navbar-collapse dual-nav w-100" id="navbarNavDropdown">
+      <nav class="navbar sticky-top navbar-expand-md navbar-light justify-content-between navbar-overlay navbar-inverse row">
+        <div class="navbar-collapse dual-nav col-4 col-md-4" id="navbarNavDropdown">
           <div class="btn-group">
-            <button type="button" class="btn btn-dark dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
-              GoTo
+            <button type="button" class="btn btn-outline-secondary" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="#page-1">Features</a>
@@ -48,25 +49,9 @@ class Navbar extends React.Component {
               <a class="dropdown-item" href="#page-3">The Forge Team</a>
             </div>
           </div>
-          {/* <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Features</a>
-                <a class="dropdown-item" href="#">Installation And Usage</a>
-                <a class="dropdown-item" href="#">The Forge Team</a>
-
-              </div>
-            </li>
-          </ul> */}
         </div>
-        <a class="navbar-brand mx-auto d-block text-center w-100" href="#">The Forge Logo Here</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse dual-nav w-100">
+        <img class="forge-nav-logo" src={iconImg} />
+        <div class="navbar-collapse collapse dual-nav col-4 col-md-4">
           <a class="navbar-brand nav navbar-nav ml-auto npm" href="https://npmjs.com/package/the_forge"><i class="fab fa-npm fa-2x" /></a>
           <a class="navbar-brand nav navbar-nav ml-auto" href="https://github.com/ProgrammersWitAttitudes/pwa_creator/stargazers"><i class="fab fa-github fa-2x" /></a>
         </div>
