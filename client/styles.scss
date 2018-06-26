@@ -8,10 +8,12 @@ body {
   font-family: "Lato";
   font-weight: 400;
   text-rendering: optimizeLegibility;
+  background-color: #efefef;
 }
 
 .logo-container {
   background-image: url("static/fire.jpg");
+  background-size: cover;
   text-align: center;
   padding-bottom: 20px;
   .logo-text {
@@ -21,7 +23,7 @@ body {
     text-shadow: -2px 0 $text-border, 0 2px $text-border, 2px 0 $text-border, 0 -2px $text-border;
   }
   .slogan {
-    color: $secondary-color;
+    color: white;
     font-size: 36px;
   }
 }
