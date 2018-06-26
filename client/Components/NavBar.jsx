@@ -53,7 +53,7 @@ class Navbar extends React.Component {
         <img class="forge-nav-logo" src={iconImg} />
         <div class="navbar-collapse collapse dual-nav col-4 col-md-4">
           <a class="navbar-brand nav navbar-nav ml-auto npm" href="https://npmjs.com/package/the_forge"><i class="fab fa-npm fa-2x" /></a>
-          <a class="navbar-brand nav navbar-nav ml-auto" href="https://github.com/ProgrammersWitAttitudes/pwa_creator/stargazers"><i class="fab fa-github fa-2x" /></a>
+          <a class="navbar-brand nav navbar-nav ml-auto" href="https://github.com/forgepwa/the_forge/stargazers"><i class="fab fa-github fa-2x" /></a>
         </div>
       </nav>
     );
