@@ -18,11 +18,6 @@ body {
   padding-bottom: 20px;
   .logo-text {
     width: 100%;
-    
-  }
-  .slogan {
-    color: white;
-    font-size: 36px;
   }
 }
 
@@ -162,9 +157,9 @@ h3 {
 }
 
 .navbar-overlay {
-  z-index: 1;
   border-style: hidden hidden solid hidden;
   border-width: thin;
+  background: firebrick; 
 }
 
 #page-1 #page-2 #page-3 {
