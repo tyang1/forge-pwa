@@ -16,7 +16,7 @@ const config = {
         include: /client/,
       },
       {
-        test: /\.(png|jp(e*)g|svg)$/,
+        test: /\.(png|jp(e*)g|svg|gif)$/,
         use: [{
           loader: 'url-loader',
           options: {
