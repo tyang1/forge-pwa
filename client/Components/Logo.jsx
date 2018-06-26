@@ -15,8 +15,7 @@ const Logo = () => (
           <a className="btn btn-lg btn-info" href="https://www.npmjs.com/package/the_forge">NPM</a>
         </div>
         <div className="github-button-group">
-          <div className="gh-btn"><a className="github-button" href="https://github.com/forgepwa/the_forge" data-icon="octicon-star" aria-label="Star the Forge on GitHub">Star</a></div>
-          <div className="gh-btn"><a className="github-button" href="https://github.com/forgepwa" aria-label="Follow @forgepwa on GitHub">Follow @forgepwa</a></div>
+          <iframe src="https://ghbtns.com/github-btn.html?user=forgepwa&repo=the_forge&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
         </div>
       </div>
       <div className="col-md-6">
