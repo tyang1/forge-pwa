@@ -12,10 +12,12 @@ body {
 }
 
 .logo-container {
+  width: 100%;
   text-align: center;
   padding-bottom: 20px;
+  background-color: white;
   .logo-text {
-    width: 100%;
+    width: 80%;
   }
 }
 
