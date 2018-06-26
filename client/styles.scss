@@ -1,21 +1,24 @@
 $primary-color: red;
 $secondary-color: orange;
 $minor-color: gold;
+$text-border: black;
 
 body {
   // font-family: Courier New;
-  font-family:  'Lato';
+  font-family: "Lato";
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }
 
 .logo-container {
-  background-color: #eee;
+  background-image: url("static/fire.jpg");
   text-align: center;
   padding-bottom: 20px;
   .logo-text {
     color: $primary-color;
     font-size: 128px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: -2px 0 $text-border, 0 2px $text-border, 2px 0 $text-border, 0 -2px $text-border;
   }
   .slogan {
     color: $secondary-color;
@@ -39,11 +42,8 @@ body {
     padding: 20px;
     position: relative;
     display: inline-flex;
-    
   }
 }
-
-
 
 .head h2 {
   color: white;
@@ -61,19 +61,22 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 75%;
+  height: auto;
   overflow: auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
-h3{
+h3 {
   font-weight: 700;
 }
 
 .head a {
   padding-right: 10px;
   padding-left: 10px;
+  bottom: 0;
 }
 
 .image {
@@ -83,6 +86,7 @@ h3{
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  position: aboslute;
 }
 
 .half-image {
@@ -132,10 +136,17 @@ h3{
     width: 100%;
     display: block;
   }
+  .installation {
+    width: 100%;
+  }
 }
 
 .feature-desc h4 {
   padding-left: 40px;
+}
+
+.installation {
+  width: 80%;
 }
 
 .footer {
@@ -148,4 +159,14 @@ h3{
 
 .f-text {
   color: lightgray;
+}
+
+.navbar-overlay {
+  z-index: 1;
+  border-style: hidden hidden solid hidden;
+  border-width: thin;
+}
+
+#page-1 #page-2 #page-3 {
+  scroll-behavior: smooth;
 }
