@@ -4,7 +4,7 @@ $minor-color: gold;
 
 body {
   // font-family: Courier New;
-  font-family:  'Lato';
+  font-family: "Lato";
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }
@@ -16,16 +16,17 @@ body {
   .logo-text {
     color: $primary-color;
     font-size: 128px;
+    font-family: 'Open Sans', sans-serif;
   }
   .slogan {
     color: $secondary-color;
     font-size: 36px;
   }
 }
-// .container-fuild {
-//   -webkit-animation-iteration-count: 1;
-//   animation-iteration-count: 1;
-// }
+
+.npm {
+  margin-right: -200px;
+}
 
 .team {
   margin-bottom: 2rem;
@@ -39,11 +40,8 @@ body {
     padding: 20px;
     position: relative;
     display: inline-flex;
-    
   }
 }
-
-
 
 .head h2 {
   color: white;
@@ -61,19 +59,22 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 75%;
+  height: auto;
   overflow: auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
-h3{
+h3 {
   font-weight: 700;
 }
 
 .head a {
   padding-right: 10px;
   padding-left: 10px;
+  bottom: 0;
 }
 
 .image {
@@ -83,6 +84,7 @@ h3{
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  position: aboslute;
 }
 
 .half-image {
@@ -132,10 +134,17 @@ h3{
     width: 100%;
     display: block;
   }
+  .installation {
+    width: 100%;
+  }
 }
 
 .feature-desc h4 {
   padding-left: 40px;
+}
+
+.installation {
+  width: 80%;
 }
 
 .footer {
