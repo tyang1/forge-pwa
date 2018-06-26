@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles.scss';
+import iconImg from '../static/forge-icon.png';
 // import styled from 'styled-components';
 // import HamburgerIcon from 'react-icons/lib/md/menu';
 // import VerticalIcon from 'react-icons/lib/md/more-vert';
@@ -49,8 +50,8 @@ class Navbar extends React.Component {
             </div>
           </div>
         </div>
-        <a class="navbar-brand mx-auto d-block text-center col-4 col-md-4 text-right" href="#">The Forge Logo Here</a>
-        <div class="navbar-collapse dual-nav col-4 col-md-4">
+        <img class="forge-nav-logo" src={iconImg} />
+        <div class="navbar-collapse collapse dual-nav col-4 col-md-4">
           <a class="navbar-brand nav navbar-nav ml-auto npm" href="https://npmjs.com/package/the_forge"><i class="fab fa-npm fa-2x" /></a>
           <a class="navbar-brand nav navbar-nav ml-auto" href="https://github.com/ProgrammersWitAttitudes/pwa_creator/stargazers"><i class="fab fa-github fa-2x" /></a>
         </div>

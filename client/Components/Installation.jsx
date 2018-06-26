@@ -6,10 +6,10 @@ const Installation = () => (
   <div className="container-fluid" id="page-2">
   <ScrollAnimation animateOnce="true" animateIn="fadeInLeft">
     <div className="row heading">
-      <h3>Installation And Usage</h3>
+      <h1>Installation And Usage</h1>
     </div>
     <div className="row">
-      <div className="col-md-3">
+      <div className="col-md-3 install-col">
         <h3>Installation</h3>
         <p>Install the Forge with npm:</p>
         <div className="highlight shell">
@@ -18,7 +18,7 @@ const Installation = () => (
           </pre>
         </div>
       </div>
-      <div className="col-md-3">
+      <div className="col-md-3 install-col">
         <h3>Basic Usage</h3>
         <p>Run the Forge in the command line:</p>
         <div className="highlight shell">

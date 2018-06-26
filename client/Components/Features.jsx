@@ -6,7 +6,7 @@ const Features = () => (
   <div className="container-fluid features" id="page-1">
     <ScrollAnimation animateOnce="true" animateIn="fadeInLeft">
       <div className="row heading">
-        <h3>Features</h3>
+        <h1>Features</h1>
       </div>
       <div className="row">
         <div className="col-md-6">
