@@ -10,7 +10,7 @@ import '../styles.scss';
 
 const Team = props => (
   <div className="container-fluid team" id="page-3">
-    <ScrollAnimation animateIn="fadeInRight">
+    <ScrollAnimation duration='1' delay="300" animateOnce='true'animateIn="fadeIn">
       <div className="heading">
         <h3>Our Team</h3>
       </div>
