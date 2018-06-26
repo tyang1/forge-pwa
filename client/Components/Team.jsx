@@ -12,7 +12,7 @@ const Team = props => (
   <div className="container-fluid team" id="page-3">
     <ScrollAnimation duration='1' delay="300" animateOnce='true'animateIn="fadeIn">
       <div className="heading">
-        <h3>Our Team</h3>
+        <h1>Our Team</h1>
       </div>
       <div className="column">
         <PWA

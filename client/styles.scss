@@ -11,14 +11,32 @@ body {
 }
 
 .logo-container {
-  width: 100%;
-  text-align: center;
-  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
   background-color: white;
-  .logo-text {
-    width: 80%;
-  }
-}
+  text-align: center;
+  padding: 20px 0;
+ }
+ 
+ .logo-container .row {
+  width: 80%;
+ }
+ 
+ .icon-img {
+  height: auto;
+  width: 90%;
+ }
+ 
+ .forge-header {
+  color: $primary-color;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+  text-shadow: 3px 3px 10px $secondary-color;
+ }
+ 
+ .banner-buttons button {
+  margin: 10px;
+ }
 
 .npm {
   margin-right: -200px;
@@ -88,7 +106,7 @@ h3 {
 }
 
 .info:hover .image {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .info:hover .team-hover {
@@ -143,8 +161,12 @@ h3 {
   width: 80%;
 }
 
+.install-col {
+  text-align: center;
+}
+
 .footer {
-  height: 30px;
+  height: 1.5rem;
 }
 
 .footer a {
@@ -153,6 +175,16 @@ h3 {
 
 .f-text {
   color: lightgray;
+}
+
+.navbar {
+  height: 4rem;
+}
+
+.forge-nav-logo {
+  height: 3.8rem;
+  width: auto;
+  opacity: 0.9;
 }
 
 .navbar-overlay {
