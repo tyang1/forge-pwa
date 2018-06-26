@@ -17,10 +17,8 @@ body {
   text-align: center;
   padding-bottom: 20px;
   .logo-text {
-    color: $primary-color;
-    font-size: 128px;
-    font-family: 'Open Sans', sans-serif;
-    text-shadow: -2px 0 $text-border, 0 2px $text-border, 2px 0 $text-border, 0 -2px $text-border;
+    width: 100%;
+    
   }
   .slogan {
     color: white;
