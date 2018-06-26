@@ -9,7 +9,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const Team = props => (
   <div className="container-fluid team">
-    <ScrollAnimation animateOnce="true" animateIn="fadeInRight">
+    <ScrollAnimation duration="1" delay="200" animateOnce="true" animateIn="fadeIn">
       <div className="heading">
         <h3>Our Team</h3>
       </div>
