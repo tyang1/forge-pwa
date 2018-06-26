@@ -39,7 +39,7 @@ body {
  }
 
 .npm {
-  margin-right: -200px;
+  margin-right: -190px;
 }
 
 .team {
@@ -195,4 +195,10 @@ h3 {
 
 #page-1 #page-2 #page-3 {
   scroll-behavior: smooth;
+}
+
+.dropdown-menu {
+  top: 120%;
+  background: firebrick;
+  border-style: hidden solid solid solid;
 }
