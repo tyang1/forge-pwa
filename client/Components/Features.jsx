@@ -5,7 +5,7 @@ import forgeGif from '../static/forgegif.gif';
 
 const Features = () => (
   <div className="container-fluid features" id="page-1">
-    <ScrollAnimation animateOnce="true" animateIn="fadeInLeft">
+    <ScrollAnimation animateOnce="true" animateIn="fadeInUp">
       <div className="row heading">
         <h1>Features</h1>
       </div>

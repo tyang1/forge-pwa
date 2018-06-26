@@ -5,7 +5,7 @@ import forgeHelp from '../static/forge -h.png';
 
 const Installation = () => (
   <div className="container-fluid" id="page-2">
-  <ScrollAnimation animateOnce="true" animateIn="fadeInLeft">
+  <ScrollAnimation animateOnce="true" animateIn="fadeInUp">
     <div className="row heading">
       <h1>Installation And Usage</h1>
     </div>
